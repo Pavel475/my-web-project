@@ -1,0 +1,14 @@
+.header__background-image {
+    display: flex;
+    background-image: url(../../../images/main-page.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    filter: blur(2px) brightness(67%);
+    border-bottom: 4px solid black;
+}
+
+.header__background-image::after {
+    content: "";
+    margin-left: -1px;
+    padding-top: calc(605 / 1184 * 100%);
+}
